@@ -3,6 +3,7 @@
     margin-top: 3rem;
     height: 90vh;
     display: flex;
+    position: relative;
  }
 
  .awesome{
@@ -11,6 +12,41 @@
     flex-direction: column;
 
  }
+
+ .awesome>:nth-child(1){
+   font-size: 3rem;
+   font-weight: bold;
+   font-family: Trebuchet MS;
+
+ }
+
+ .awesome>:nth-child(2){
+   font-size: 3rem;
+   color: #B1B2FF;
+   font-weight: bold;
+ }
+
+ .awesome>:nth-child(3){
+   font-size: 14px;
+   font-weight: 400;
+   color: var(--gray);
+   margin-top: 2rem;
+   margin-bottom: 2rem;
+ }
+
+ .s-buton{
+   height: 3rem;
+   width: 10rem;
+ }
+
+ .s-blur{
+   position: absolute;
+   left: 25%;
+   top: -12%!;
+ }
+
+
+
 
  .cards{
     flex: 1;

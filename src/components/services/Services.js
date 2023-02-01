@@ -7,7 +7,7 @@ const Services = () => {
         <div className="awesome">
             <span>My Awesome</span>
             <span>services</span>
-            <spane>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit commodi dicta veritatis perspiciatis beatae.
+            <spane>Lorem ipsum dolor sit amet consectetur elit. Suscipit commodi dicta veritatis perspiciatis beatae.
                 <br />
                  Debitis ut laborum alias blanditiis commodi.
                  </spane>
