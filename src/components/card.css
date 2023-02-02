@@ -1,0 +1,41 @@
+.cardParent{
+    align-items: center;
+    width: 12rem;
+    border: 5px solid;
+    border-radius: 20px;
+    border-color: #AAC4FF;
+    text-align: center;
+    padding: 1.6rem .8rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: absolute;
+
+}
+
+.cardParent>*{
+    margin:auto;
+    width: 10rem;
+    position: relative;
+    margin-top: 20px;
+    
+}
+
+.cardParent>:nth-child(1){
+    transform: scale(0.6);
+    margin-top: -25%;
+    margin-bottom: 20px;
+    
+}
+
+.cardParent>:nth-child(2){
+    transform: scale(1.2);
+    margin-top: -23%;
+}
+
+.cardParent>:nth-child(3){
+    transform: scale(.85);
+    top: -21%;
+}
+
+.card-button{
+    transform: scale(.85);
+}
