@@ -4,7 +4,7 @@ import Card from '../Card'
 import glasseEmoji from '../../img/glasses.png'
 import heartEmoji from '../../img/heartemoji.png'
 import humbleEmoji from '../../img/humble.png'
-
+import Resume from './final_admission_2022.pdf'
 const Services = () => {
   return (
     <div className="services">
@@ -15,7 +15,11 @@ const Services = () => {
           <br />
           Debitis ut laborum alias blanditiis commodi.
         </spane>
+        <a href={Resume} download>
+
         <button className="button s-buton"> Download CV</button>
+        </a>
+        
         <div className="blur s-blur" style={{ background: '#ABF1FF94' }}></div>
 
       </div>
