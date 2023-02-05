@@ -1,0 +1,38 @@
+.work{
+    display: flex;
+}
+.l-work{
+    display: flex;
+    flex-direction: column;
+    margin-top: 8rem;
+    flex: 1;
+    margin-left: 2.1rem;
+    gap: 1rem;
+}
+
+.l-work>:nth-child(1){
+    font-size:2.4rem ;
+    font-weight: bold;
+    font-family: Trebuchet MS;    ;
+}
+
+.l-work>:nth-child(2){
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: var(--accentColor);
+}
+
+.l-work>:nth-child(3){
+    font-size: 14px;
+    color: grey;
+}
+
+.w-button{
+    height: 2.6rem;
+    width: 8rem;
+
+}
+.r-circle{
+    display: flex;
+    flex: 1;
+}
