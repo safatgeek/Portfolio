@@ -1,5 +1,10 @@
 import './work.css'
 import React from 'react'
+import Facebook from '../../img/Facebook.png'
+import Upwork from '../../img/Upwork.png'
+import Fiverr from '../../img/fiverr.png'
+import Shopify from '../../img/Shopify.png'
+import Amazon from '../../img/amazon.png'
 
 const Work = () => {
     return (
@@ -17,6 +22,23 @@ const Work = () => {
             </div>
 
             <div className="r-circle">
+                <div className="mainCircle">
+                    <div>
+                    <img src={Facebook} alt="" />
+                    </div>
+                    <div><img src={Upwork} alt="" />
+                    </div>
+                    <div><img src={Fiverr} alt="" />
+                    </div>
+                    <div> <img src={Shopify} alt="" />
+                    </div>
+                    <div><img src={Amazon} alt="" />
+                    </div>
+                    
+                    
+                   
+                    
+                </div>
 
             </div>
         </div>

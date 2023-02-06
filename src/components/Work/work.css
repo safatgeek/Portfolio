@@ -1,10 +1,11 @@
 .work{
     display: flex;
+    margin-top: 8rem;
+    height: 60vh;
 }
 .l-work{
     display: flex;
     flex-direction: column;
-    margin-top: 8rem;
     flex: 1;
     margin-left: 2.1rem;
     gap: 1rem;
@@ -33,6 +34,61 @@
 
 }
 .r-circle{
-    display: flex;
     flex: 1;
+}
+
+.mainCircle{
+    height: 20rem;
+    width: 20rem;
+    background-color: rgb(179, 173, 255);
+    border: 5px solid rgb(77, 18, 132) ;
+    border-radius: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.mainCircle>*{
+    height: 5rem;
+    width: 5rem;
+    border: 3.5px solid rgb(165, 110, 241);
+    border-radius: 100%;
+    background-color: white;
+    padding: 1rem;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.mainCircle img{
+    width: 4rem;
+    height: 4rem;
+    display: block;
+    margin: auto;
+    
+}
+
+.mainCircle>:nth-child(1){
+    position: absolute;
+    top: -14%;
+}
+
+
+.mainCircle>:nth-child(2){
+    position: absolute;
+    left: -14%;
+}
+
+
+.mainCircle>:nth-child(3){
+    position: absolute;
+    right: -14%;
+}
+
+
+.mainCircle>:nth-child(4){
+    position: absolute;
+    bottom: -14%;
 }
